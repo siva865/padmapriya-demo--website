@@ -104,7 +104,7 @@ const Hero = () => {
           font-size: 3.5rem;
           margin-bottom: 1.5rem;
           color: var(--primary-dark);
-          line-height: 1.2;
+          line-height: 1;
         }
         
         .subtitle {
@@ -198,6 +198,7 @@ const Hero = () => {
           
           .hero-content h1 {
             font-size: 2.8rem;
+            margin-top:80px;
           }
           
           .image-placeholder {
