@@ -5,6 +5,7 @@ import About from './About'
 import Services from './Services'
 import Testimonials from './Testiminials'
 import Contact from './Contact'
+import Footer from './Footer'
 import { motion, useScroll, useSpring } from 'framer-motion'
 
  function App() {
@@ -35,6 +36,7 @@ import { motion, useScroll, useSpring } from 'framer-motion'
       <Services />
       <Testimonials />
       <Contact />
+      <Footer/>
     </div>
   )
  }
