@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { FaFacebook, FaInstagram, FaTwitter, FaYoutube, FaPhone, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa'
-import { GiYogaMat } from 'react-icons/gi'
+import { GrYoga } from "react-icons/gr";
 
 const Footer = () => {
   const containerVariants = {
@@ -37,7 +37,7 @@ const Footer = () => {
       >
         <motion.div className="footer-about" variants={itemVariants}>
           <div className="logo">
-            <GiYogaMat />
+            <GrYoga />
             <span>Padmapriya</span>
           </div>
           <p>
